@@ -6,8 +6,8 @@ import os
 RYTOEV = 13.605826
 AUTOA = 0.529177249
 unit_change = 2 * RYTOEV * AUTOA
-
-# Solid-liquid/Ne-CCE calculation with thermopotentiostat 
+# NOT YET OFFICIALLY IN VASP AS OF JANUARY 2026
+# Solid-liquid/Ne-CCE calculation with thermopotentiostat # Not officially in VASP
 #IMPORTANT !!! plugin file must be renamed to vasp_plugin.py in the job directory, this is done in the pyiron notebook automatically
 # but if you do not use pyiron, you must rename this yourself.
 phi0 = 1
