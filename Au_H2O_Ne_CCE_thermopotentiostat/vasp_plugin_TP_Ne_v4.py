@@ -11,7 +11,7 @@ unit_change = 2 * RYTOEV * AUTOA
 #IMPORTANT !!! plugin file must be renamed to vasp_plugin.py in the job directory, this is done in the pyiron notebook automatically
 # but if you do not use pyiron, you must rename this yourself.
 phi0 = 1
-
+# pyiron will automatically create the the INCAR, KPOINTS and POTCAR if it is used with jupyter, but these files are included here anyways in case pyiron is not used
 
 Q0 = 0   # Q is normal charge # when restart change this
 
